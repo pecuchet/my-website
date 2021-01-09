@@ -29,7 +29,7 @@
 }
 .page {
     height: 50%;
-    margin: 0 -2em;
+    margin: 0 -5em;
 }
 
 /* --------------------------------------------- Header */
@@ -46,18 +46,13 @@ header h1 {
     display: inline-block;
     vertical-align: top;
     width: 11%; height: 100%;
-    padding: 0 2em;
-    border-right: 2px solid;
-    overflow: auto;
+    padding: 0 5em;
+    overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
-}
-.is-win .col {
-    border-right: none;
 }
 .col.content {
     width: 0;
     padding: 0;
-    border: none;
     -webkit-transition: width .4s ease;
     transition: width .4s ease;
     /*will-change: transform;*/
@@ -139,9 +134,9 @@ a.item.active h3 {
 
 
 .content article {
-    padding-left: 2em;
-    width: 75%;
-    max-width: 750px;
+    padding-left: 3em;
+    width: 95%;
+    max-width: 900px;
 }
 .content h2 {
     margin-bottom: 38px;
@@ -174,7 +169,7 @@ a.item.active h3 {
     bottom: .8em;
 }
 #contact {
-    padding: 0 2em;
+    padding: 0 5em;
 }
 #nav-mobile button {
     display: none;
@@ -189,6 +184,14 @@ a.item.active h3 {
         /* fixes blurry text in webkit */
         -webkit-transform: translateZ(0);
         transform: translateZ(0);
+    }
+}
+@media (max-width : 1600px) {
+    .page {
+        margin: 0 -3em;
+    }
+    .col, #contact {
+        padding: 0 3em;
     }
 }
 @media (max-width : 1024px) {
@@ -223,7 +226,6 @@ a.item.active h3 {
     .col,
     .col.open {
         width: 25%;
-        border: none;
         padding: 0;
     }
     .col.content {

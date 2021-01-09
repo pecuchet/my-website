@@ -1,7 +1,7 @@
 {
     "name": "dotburo/eu-website",
     "type": "project",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Arnaud Coolsaet's website",
     "homepage": "https://arnaudcoolsaet.eu/",
     "license": "GPL-3.0-only",
