@@ -1,0 +1,27 @@
+
+/* -------------------------- Tools */
+
+.hide {
+    display: none;
+}
+.invisible {
+    visibility: hidden;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.err-xhr {
+    padding: 3em;
+    text-align: center;
+    color: red;
+}
+.err-404 {
+    padding: 0 2em;
+}
+.btn-link {
+    line-height: 1.1;
+    padding: 1em;
+}

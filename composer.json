@@ -1,0 +1,23 @@
+{
+    "name": "dotburo/eu-website",
+    "type": "project",
+    "version": "2.0.0",
+    "description": "Arnaud Coolsaet's website",
+    "homepage": "https://arnaudcoolsaet.eu/",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "dotburo",
+            "email": "code@dotburo.org",
+            "homepage": "https://dotburo.org"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "twig/twig": "1.18.*",
+        "michelf/php-markdown": "1.3"
+    },
+    "autoload": {
+        "files": ["lib/pico.php"]
+    }
+}

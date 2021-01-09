@@ -1,0 +1,24 @@
+{
+  "name": "@dotburo/eu-website",
+  "version": "2.0.0",
+  "description": "Arnaud Coolsaet's website",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dotburo <code@dotburo.org> (https://dotburo.org)",
+  "license": "GPL-3.0-only",
+  "homepage": "https://arnaudcoolsaet.eu/",
+  "devDependencies": {
+    "almond": "^0.3.3",
+    "grunt": "^1.3.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^2.0.0",
+    "grunt-contrib-requirejs": "^1.0.0",
+    "grunt-exec": "^1.0.0"
+  },
+  "dependencies": {
+    "go-scroll-to": "^1.0.2",
+    "requirejs": "^2.2.0"
+  }
+}

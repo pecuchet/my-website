@@ -1,0 +1,10 @@
+# Disallow
+User-agent: Mediapartners-Google
+User-agent: Adsbot-Google
+Disallow: /*
+
+# global
+User-agent: *
+Disallow: /lib/*/*
+Disallow: /plugins/
+Disallow: /vendor/

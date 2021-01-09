@@ -1,0 +1,286 @@
+
+/* --------------------------------------------- Main structure */
+
+#wrap {
+    padding: 5em 3.5em 4em 3.5em;
+    height: 100%;
+}
+#header, #footer {
+    position: fixed; left: 0; right: 0; z-index: 1;
+    padding: 0 2.5em;
+}
+#header {
+    top: .9em;
+}
+#pages {
+    height: 100%;
+    overflow: hidden;
+}
+#grid {
+    height: 100%;
+    width: 300%;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-transition: -webkit-transform .2s;
+    transition: transform .2s;
+}
+#pages-inner {
+    height: 200%;
+}
+.page {
+    height: 50%;
+    margin: 0 -2em;
+}
+
+/* --------------------------------------------- Header */
+
+
+header h1 {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+/* --------------------------------------------- Columns structure */
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+    width: 11%; height: 100%;
+    padding: 0 2em;
+    border-right: 2px solid;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.is-win .col {
+    border-right: none;
+}
+.col.content {
+    width: 0;
+    padding: 0;
+    border: none;
+    -webkit-transition: width .4s ease;
+    transition: width .4s ease;
+    /*will-change: transform;*/
+}
+.col.open {
+    width: 22%;
+}
+.col h2 {
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: .05em;
+    margin-bottom: 10px;
+}
+
+
+/* --------------------------------------------- HOME : main column item */
+
+
+.item {
+    padding: 1em 0;
+}
+dt {
+    padding-top: 1em;
+}
+dd {
+    padding-bottom: 1em;
+}
+a.item {
+    text-decoration: none;
+    display: block;
+}
+.item h3 {
+    font-size: 28px;
+}
+.col.news .item h3 {
+    font-size: 24px;
+}
+.item time {
+    font-size: 14px;
+}
+.no-touch a.item:focus h3,
+.no-touch a.item:hover h3,
+a.item.active h3 {
+    text-decoration: underline;
+}
+.item span {
+    visibility: hidden;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+.no-touch a.item:focus span,
+.no-touch a.item:hover span {
+    visibility: visible;
+}
+.is-touch a.item h3 {
+    text-decoration: underline;
+}
+.is-touch a.item.active h3 {
+    text-decoration: none;
+}
+
+
+/* --------------------------------------------- HOME : grid tooltip images */
+
+
+#thumb {
+    position: absolute; z-index: 9999;
+    display: none;
+    margin: -20px 0 0 70px;
+    border: 1px solid;
+    will-change: transform;
+}
+#thumb img {
+    display: block;
+}
+
+
+/* --------------------------------------------- project page structure */
+
+
+.content article {
+    padding-left: 2em;
+    width: 75%;
+    max-width: 750px;
+}
+.content h2 {
+    margin-bottom: 38px;
+}
+.content img, video {
+    max-width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+.content .about {
+    margin: 2em 0;
+}
+.about h3 {
+    text-decoration: underline;
+}
+.about ol {
+    padding-left: 2em;
+    font-size: 14px;
+}
+.about ol li {
+    list-style: decimal;
+    margin-bottom: .5em;
+}
+
+
+/* --------------------------------------------- Footer */
+
+
+#footer {
+    bottom: .8em;
+}
+#contact {
+    padding: 0 2em;
+}
+#nav-mobile button {
+    display: none;
+}
+
+
+/* --------------------------------------------- RWD */
+
+
+@media (-webkit-max-device-pixel-ratio: 1), (max-resolution : 1dppx), (max-resolution : 120dpi) {
+    .item {
+        /* fixes blurry text in webkit */
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}
+@media (max-width : 1024px) {
+    .content article {
+        width: 90%;
+    }
+}
+@media (max-width : 900px) {
+    #wrap {
+        padding: 5em 1em 4em 1em;
+    }
+    #header, #footer {
+        padding: 0;
+    }
+}
+@media (max-width : 780px) {
+
+    /* --------------------------------------------- Structure */
+
+    #wrap {
+        padding: 5em 2em 4em 2em;
+    }
+    #header, #footer {
+        padding: 0 1em;
+    }
+    .page {
+        margin: 0;
+    }
+    #grid {
+        width: 400%;
+    }
+    .col,
+    .col.open {
+        width: 25%;
+        border: none;
+        padding: 0;
+    }
+    .col.content {
+        -webkit-transition: none;
+        transition: none;
+    }
+    .content article {
+        padding-left: 0;
+        width: 75%;
+    }
+    .content h2 {
+        margin-bottom: 22px;
+    }
+    #contact {
+        padding: 0;
+    }
+
+    /* --------------------------------------------- Footer UI */
+
+    #nav-mobile button {
+        position: relative;
+        display: inline-block;
+        padding: 1em .9em;
+    }
+    #nav-mobile button:after {
+        position: absolute; right: -3px;
+        content: '|';
+        vertical-align: middle;
+        height: 1em;
+    }
+}
+@media (max-width : 600px) {
+    .content article {
+        width: 100%;
+    }
+}
+@media (max-width : 500px) {
+    #wrap {
+        padding: 5em 1em 4em 1em;
+    }
+    #header, #footer {
+        padding: 0;
+    }
+}
+@media (max-height : 600px) {
+    #wrap {
+        padding-bottom: 3em;
+    }
+    #footer {
+        bottom: 0;
+    }
+}
+@media (max-height : 500px) {
+    #wrap {
+        padding-top: 4em;
+    }
+    #header {
+        top: .3em;
+    }
+}

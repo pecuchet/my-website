@@ -1,0 +1,15 @@
+.DS_Store
+.idea
+.env
+.swp
+vendor
+node_modules
+themes/db-5/templates/cache/*
+config.php
+config.js
+content/**/*.jpg
+content/**/*.png
+content/**/*.gif
+content/**/*.mp4
+robots.txt
+config.php

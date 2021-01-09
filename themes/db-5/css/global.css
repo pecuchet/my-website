@@ -1,0 +1,99 @@
+
+/* -------------------------- Global styles */
+
+body {
+    font: 1.6em/1.4 'Helvetica Neue', sans-serif;
+    font-variant-ligatures: common-ligatures;
+    -moz-font-feature-settings: "liga", "clig";
+    -webkit-font-feature-settings: "liga", "clig";
+    font-feature-settings: "liga", "clig";
+    overflow: hidden;
+}
+.wf-active body {
+    font-family: 'aktiv-grotesk', sans-serif;
+}
+a,
+.btn-link {
+    color: #000;
+    text-decoration: underline;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+a:focus,
+a:hover,
+.btn-link:focus,
+.btn-link:hover,
+.btn-link:active,
+.btn-link.active {
+    text-decoration: none;
+}
+::-moz-selection {
+    color: #FFF;
+    background: #000;
+}
+::selection {
+    color: #FFF;
+    background: #000;
+}
+
+/* -------------------------- Markdown styles */
+
+h5, h6 {
+    line-height: inherit;
+}
+b, strong {
+    font-weight: 500;
+}
+i, em, blockquote {
+    font-style: italic;
+}
+sub {
+    font-variant-position: sub;
+    -moz-font-feature-settings: "subs";
+    -webkit-font-feature-settings: "subs";
+    font-feature-settings: "subs";
+}
+sup {
+    font-variant-position: super;
+    -moz-font-feature-settings: "sups";
+    -webkit-font-feature-settings: "sups";
+    font-feature-settings: "sups";
+}
+code {
+    background: #eee;
+    padding: 20px;
+    margin-bottom: 1em;
+    overflow: auto;
+}
+
+/* -------------------------- Scroll bars : webkit */
+
+/*::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    box-shadow: inset -1px 0 0 #000;
+}
+::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+}
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+    display: none;
+}*/
+
+/* -------------------------- Scroll bars : IE */
+
+/*
+.viewer-scroll {
+    !* outer bevel *!
+    scrollbar-3dlight-color: #000;
+    scrollbar-darkshadow-color: #000;
+    !* inner bevel *!
+    scrollbar-highlight-color: #000;
+    scrollbar-shadow-color: #FFF;
+    scrollbar-base-color: #FFF;
+    scrollbar-face-color: #000;
+    scrollbar-arrow-color: #FFF;
+    scrollbar-track-color: #000;
+}*/

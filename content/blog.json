@@ -1,0 +1,47 @@
+{
+  "title" : "News",
+  "items" : [
+    {
+      "title" : "A daily dynamically generated search engine movie.",
+      "date" : "2016-06-21",
+      "modified" : "2016-10-21",
+      "description" : "Dotburo started working with Tessa Groenewoud on the Python and FFmpeg version of “Why do people keep photographs?”, <a href='https://dotburo.org/why-do-people-keep-photographs/' target='_blank'>more info</a>."
+    },
+    {
+      "title" : "New workspace at Timelab",
+      "date" : "2014-10-15",
+      "description" : "New studio location, part of the <a href='http://timelab.org' target='_blank'>Timelab</a> ecosystem!"
+    },
+    {
+      "title" : "ReCode_Hieroglyphs",
+      "date" : "2013-03-28",
+      "description" : "Processing Ghent 007&mdash;The Recode edition, <a href='http://recodeproject.com/translation/arnaud-coolsaet-recode-hieroglyphs-direct-untitled-1-aaron-marcus' target='_blank'>Based on: Untitled 1 by Aaron Marcus, 1978</a>."
+    },
+    {
+      "title" : "Time's constitutive malleability",
+      "date" : "2011-07-28",
+      "modified" : "2016-09-05",
+      "url" : "/blog/time-constitutive-malleability-casys-2011",
+      "description" : "Lecture; the subjective play of time in objective constitution."
+    },
+    {
+      "title" : "Kijktank",
+      "date" : "2011-02-03",
+      "url" : "/blog/kijktank",
+      "description" : "Filmclub"
+    },
+    {
+      "title" : "Proto-critical art",
+      "date" : "2010-04-19",
+      "modified" : "2016-09-05",
+      "url" : "/blog/proto-critical-art",
+      "description" : "Lecture about art, transcendental philosophy and social criticism."
+    },
+    {
+      "title" : "iMAL: real time 3D & video",
+      "date" : "2005-07-04",
+      "date_to": "2005-07-16",
+      "description": "<a href='http://imal.org/AteliersArtNum/archives/index.html' target='_blank'>MAX-MSP workshops</a>"
+    }
+  ]
+}
