@@ -64,36 +64,7 @@ code {
     margin-bottom: 1em;
     overflow: auto;
 }
-
-/* -------------------------- Scroll bars : webkit */
-
-/*::-webkit-scrollbar {
-    width: 10px;
+small {
+    font-size: 11px;
+    letter-spacing: .05em;
 }
-::-webkit-scrollbar-thumb {
-    box-shadow: inset -1px 0 0 #000;
-}
-::-webkit-scrollbar-track-piece {
-    background-color: transparent;
-}
-::-webkit-scrollbar-button,
-::-webkit-scrollbar-corner {
-    background-color: transparent;
-    display: none;
-}*/
-
-/* -------------------------- Scroll bars : IE */
-
-/*
-.viewer-scroll {
-    !* outer bevel *!
-    scrollbar-3dlight-color: #000;
-    scrollbar-darkshadow-color: #000;
-    !* inner bevel *!
-    scrollbar-highlight-color: #000;
-    scrollbar-shadow-color: #FFF;
-    scrollbar-base-color: #FFF;
-    scrollbar-face-color: #000;
-    scrollbar-arrow-color: #FFF;
-    scrollbar-track-color: #000;
-}*/

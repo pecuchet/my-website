@@ -134,7 +134,7 @@ a.item.active h3 {
 
 
 .content article {
-    padding-left: 3em;
+    padding: 0 0 3em 3em;
     width: 95%;
     max-width: 900px;
 }
@@ -159,6 +159,9 @@ a.item.active h3 {
 .about ol li {
     list-style: decimal;
     margin-bottom: .5em;
+}
+.content article footer {
+    margin-top: 3em;
 }
 
 

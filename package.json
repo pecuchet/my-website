@@ -1,6 +1,6 @@
 {
   "name": "@dotburo/eu-website",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Arnaud Coolsaet's website",
   "main": "main.js",
   "scripts": {
