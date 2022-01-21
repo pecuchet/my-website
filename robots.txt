@@ -8,3 +8,5 @@ User-agent: *
 Disallow: /lib/*/*
 Disallow: /plugins/
 Disallow: /vendor/
+Disallow: /storage/*
+Disallow: /storage/**/*
