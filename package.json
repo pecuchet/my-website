@@ -1,14 +1,11 @@
 {
   "name": "@dotburo/eu-website",
-  "version": "2.0.2",
   "description": "Arnaud Coolsaet's website",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "dotburo <code@dotburo.org> (https://dotburo.org)",
+  "version": "2.0.2",
   "license": "GPL-3.0-only",
+  "author": "dotburo <code@dotburo.org> (https://dotburo.org)",
   "homepage": "https://arnaudcoolsaet.eu/",
+  "main": "main.js",
   "devDependencies": {
     "almond": "^0.3.3",
     "grunt": "^1.3.0",
@@ -20,5 +17,8 @@
   "dependencies": {
     "go-scroll-to": "^1.0.2",
     "requirejs": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

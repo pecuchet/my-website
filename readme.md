@@ -1,5 +1,7 @@
 ### Code and text content for [arnaudcoolsaet.eu](https://arnaudcoolsaet.eu)
 
+Flat file website.
+
 #### Code licence
 The code is licensed under a [General Public License (GPL-3.0)](LICENSE).
 

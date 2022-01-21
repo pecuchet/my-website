@@ -1,5 +1,4 @@
 <?php
-date_default_timezone_set('UTC');
 $config['base_url'] = '';
 $config['site_title'] = '';
 $config['site_title_sep'] = ' • ';
@@ -13,7 +12,7 @@ $config['content_dir'] = 'content/';
 $config['theme'] = 'db-5';
 
 $config['twig_config'] = [
-    'cache' => 'dist/templates/cache',
+    'cache' => 'storage/cache',
     'autoescape' => false,
     'debug' => false
 ];
