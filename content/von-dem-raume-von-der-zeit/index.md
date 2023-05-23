@@ -23,7 +23,7 @@ In time the accustomed space, determining and constraining our movements, is tra
 
  1. <a href="http://www.courtmetrage.be/" target="_blank">Brussels Short Film Festival</a> multimedia library&mdash;May 2011
  2. *Thinking through dance*, Roehampton University, London at a lecture by Elisabeth Van Dam&mdash;February 26th, 2011
- 3. <a href='https://www.filmfestival.be/nl/archief/festival-edities/von-dem-raume-von-der-zeit/10-K211' target='_blank'>International Film Festival Ghent 2010</a>, festival premiere at Vooruit's theaterzaal&mdash;October 19th, 2010.
+ 3. <a href='https://www.filmfestival.be/nl/nieuws/mike-figgis-zit-vlaamse-topchoreografie-op-de-huid' target='_blank'>International Film Festival Ghent 2010</a>, festival premiere at Vooruit's theaterzaal&mdash;October 19th, 2010.
  4. Group exhibition *Kapellekensbaan nr. 2*, Beveren, Belgium. The video was presented as part of Elisabeth Van Dam’s contribution to the exhibition, 20 june&ndash;25 july 2010
 
 <br>
@@ -36,4 +36,4 @@ Hij filmt danseres Elisabeth Van Dam die improviseert binnen de krijtlijnen van 
 De herhaalde bewegingen en de improvisatie binnen de rechtlijnige ruimte visualiseren een nood en
 een drang om de tijd en de ruimte anders op te nemen. In dit kortfilmdebuut vallen vooral de subtiele,
 gestroomlijnde filmische beeldwisselingen op. Wereldpremière op 19 oktober, 20 u., Theaterzaal Vooruit.”  
-<a href="https://www.filmfestival.be/nl/nieuws/mike-figgis-zit-vlaamse-topchoreografie-op-de-huid/18-10-2010/1171" target="_blank">International Film Festival Ghent 2010</a>
+<a href="https://www.filmfestival.be/nl/nieuws/mike-figgis-zit-vlaamse-topchoreografie-op-de-huid" target="_blank">International Film Festival Ghent 2010</a>
