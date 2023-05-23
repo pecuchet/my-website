@@ -4,9 +4,10 @@ ArtForm: Research
 Description: Objective constitution asks for subjective time experience.
 
 Date: 2011-07-28
+Modified: 2023-05-23
 */
 
-Lecture at the CASYS 2011 conference held in Liège, August 9<sup>th</sup>, 2011. Abstract:  
+Lecture at the CASYS ’11, 10th International Conference on Computing Anticipatory Systems, Liège, August 9<sup>th</sup>, 2011. Abstract:  
 
 <br>
 Objective constitution asks for subjective time experience. Drawing this central proposition from contemporary 
@@ -18,4 +19,4 @@ However, this will confront several difficulties in different disciplines, from 
 of constraining metaphysics, to the development of anticipative systems and, prominently, the problem of time in epistemology.  
 
 <br>
-<a href="http://www2.ulg.ac.be/mathgen/CHAOS/CASYS.html" target="_blank">CASYS, conference website</a>
+<a href="http://www2.ulg.ac.be/mathgen/CHAOS/CASYS.html" target="_blank" class="broken-link">CASYS, conference website</a>
