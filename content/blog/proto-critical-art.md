@@ -6,7 +6,7 @@ Description: Lecture about art, transcendental philosophy and social criticism.
 Date: 2010-04-19
 */
 Lecture about art, transcendental philosophy and social criticism. 
-Held at <a href="http://community.dewereldmorgen.be/blog/infomania/2010/03/30/programma-infomania-april-mei-kunst-en-maatschappijkritiek" target="_blank">AC, Anarchistisch Centrum, Ghent, organised by Infomania</a>, 
+Held at <a href="https://www.dewereldmorgen.be/community/programma-infomania-april-mei-kunst-en-maatschappijkritiek/" target="_blank">AC, Anarchistisch Centrum, Ghent, organised by Infomania</a>, 
 on April 19<sup>th</sup>, 2010. Abstract (in dutch):  
 
 <br/>
