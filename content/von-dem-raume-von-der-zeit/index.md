@@ -4,8 +4,8 @@ Description: The improvised dance, the filmed room and its time form a visual me
 ArtForm: Video
 Image: raum-und-zeit_space-1.jpg
 
-Date: 2011-01-04
-Modified: 2019-12-11
+Date: 2010-01-04
+Modified: 2023-05-23
 */
 
 In <em>von dem Raume. von der Zeit</em> performer and philosopher <a href="http://elisabethvandam.com/" target="_blank">Elisabeth Van Dam</a>
